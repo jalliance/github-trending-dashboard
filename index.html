@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Trending Dashboard</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 40px; line-height: 1.6; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+  th { background: #f4f4f4; }
+  tr:nth-child(even) { background: #f9f9f9; }
+  h1 { color: #24292f; }
+  a { color: #0969da; }
+</style>
+</head>
+<body>
+<h1>GitHub Trending Repositories Today (as of July 2026)</h1>
+<p>Data fetched from GitHub Trending. Explanations added for context.</p>
+<table>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Repository</th>
+<th>Language</th>
+<th>Stars Today</th>
+<th>What it does</th>
+<th>Good for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/Robbyant/lingbot-map">Robbyant/lingbot-map</a></td>
+<td>Python</td>
+<td>831</td>
+<td>A feed-forward 3D foundation model for reconstructing 3D scenes from streaming video data in real-time, handling long sequences with efficient memory management.</td>
+<td>Robotics, AR/VR, autonomous systems, real-time 3D mapping and scene reconstruction. SOTA performance on benchmarks.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/apache/ossie">apache/ossie</a></td>
+<td>Python</td>
+<td>47</td>
+<td>Apache project (incubating) to standardize semantic metadata exchange across analytics, AI, and BI platforms for consistent data definitions.</td>
+<td>Improving interoperability between data tools, AI agents, and BI platforms; reducing semantic drift and reconciliation efforts in data pipelines.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/PostHog/posthog">PostHog/posthog</a></td>
+<td>Python</td>
+<td>338</td>
+<td>Open-source product analytics platform with AI observability, session replay, feature flags, experiments, error tracking, etc.</td>
+<td>Self-hosted or cloud product analytics for teams wanting full control and privacy. Integrates with Slack and more for product development.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/ibelick/ui-skills">ibelick/ui-skills</a></td>
+<td>TypeScript</td>
+<td>123</td>
+<td>Collection of skills or resources for design engineers, likely for AI agents or design workflows.</td>
+<td>Design engineering, UI/UX development, enhancing AI coding agents with design knowledge.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/rohitg00/ai-engineering-from-scratch">rohitg00/ai-engineering-from-scratch</a></td>
+<td>Python</td>
+<td>191</td>
+<td>Resources or guide to learn AI engineering from scratch: learn, build, ship.</td>
+<td>Developers wanting to learn practical AI engineering, building production AI systems.</td>
+</tr>
+<!-- Add more rows as needed -->
+</tbody>
+</table>
+<h2>How to use this dashboard</h2>
+<p>This is a static site hosted on GitHub Pages. Visit <a href="https://jalliance.github.io/github-trending-dashboard/">https://jalliance.github.io/github-trending-dashboard/</a> (once Pages is enabled).</p>
+<p>Note: GitHub Pages may need to be enabled in repo settings: Settings > Pages > Source: Deploy from a branch > main / root.</p>
+</body>
+</html>
