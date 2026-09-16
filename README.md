@@ -1,10 +1,9 @@
-# GitHub Trending Dashboard
+# GitHub Trending dashboard
 
-Deployed via Grok. Visit the GitHub Pages URL once enabled.
+Frozen snapshot of [github.com/trending](https://github.com/trending) for **16 September 2026**, ~11:20 BST.
 
-## Quick Tests
-1. Install superfile: bash -c "$(curl -sLo- https://superfile.dev/install.sh)" then `spf`
-2. For Instatic: Use Railway one-click https://railway.com/deploy/instatic or similar link.
-3. ego-lite: npx skills add citrolabs/ego-lite
+Filters: Repositories · Any spoken language · Any language · Today. The live page listed **14** repos.
 
-Star this repo or fork to customize!
+Open `index.html` locally anytime. This is a briefing, not a deploy of the 14 projects.
+
+Star totals from the GitHub API. Stars-today from the trending page (they move during the day).

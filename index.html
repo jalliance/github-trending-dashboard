@@ -1,1 +1,187 @@
-<html><head><title>GitHub Trending Explorer</title><style>table {border-collapse: collapse; width:100%;} th, td {border: 1px solid #ccc; padding: 8px;}</style></head><body><h1>Current GitHub Trending Repos (July 27, 2026)</h1><table><tr><th>Repo</th><th>Lang</th><th>Desc</th><th>Good For</th><th>Test</th></tr><tr><td>permissionlesstech/bitchat</td><td>Swift</td><td>Bluetooth mesh + Nostr chat</td><td>Decentralized messaging</td><td><a href='https://apps.apple.com/us/app/bitchat-mesh/id6748219622'>App Store</a></td></tr><!-- more rows --></table><p>More details and deploy buttons in full version. Refresh or check README for updates.</p><script>alert('Deployed! You can test trending insights here anytime.');</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Trending — 16 September 2026</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card: #1a2332;
+      --text: #e7ecf3;
+      --muted: #9aa8b8;
+      --line: #2a3648;
+      --accent: #6cb6ff;
+      --ok: #7dcea0;
+      --warn: #f0c14b;
+      --bad: #e07a5f;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--text); }
+    main { max-width: 1180px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 1.6rem; margin: 0 0 8px; }
+    .meta { color: var(--muted); margin: 0 0 20px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .note { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; color: var(--muted); margin: 0 0 24px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+    th { text-align: left; font-size: 0.78rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); padding: 8px 8px 8px 0; }
+    td { border-bottom: 1px solid var(--line); padding: 10px 8px 10px 0; vertical-align: top; }
+    .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .tag { display: inline-block; background: #243044; color: var(--muted); border-radius: 999px; padding: 1px 8px; font-size: 0.78rem; }
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    .bad { color: var(--bad); }
+    .cards { display: grid; gap: 16px; margin-top: 28px; }
+    @media (min-width: 800px) { .cards { grid-template-columns: 1fr 1fr; } }
+    article { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+    article h2 { font-size: 1rem; margin: 0 0 8px; }
+    article p { margin: 0; color: var(--muted); }
+    footer { margin-top: 32px; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>GitHub Trending — 16 September 2026</h1>
+    <p class="meta">Snapshot of <a href="https://github.com/trending">github.com/trending</a> around 11:20 BST. Filters: Repositories · Any language · Today. 14 repos. Frozen briefing — not a deploy of the 14 projects.</p>
+    <div class="note">Agent scaffolding dominates this board. Stars measure momentum, not quality. <span class="ok">LibreChat</span> is the only reasonably testable self-host. <span class="ok">BrewUI</span> is a local Mac app (Tahoe 26+). <span class="warn">colibri is real but disk-bound and slow on consumer boxes.</span> <span class="bad">Do not use omniget to rip paid Udemy/Hotmart catalogs.</span> Ghidra/ASC: authorized binaries only.</div>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Repository</th>
+          <th>Lang</th>
+          <th class="num">Stars</th>
+          <th class="num">+Today</th>
+          <th>What it is / good for</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review</a></td>
+          <td><span class="tag">Go</span></td>
+          <td class="num">30,075</td>
+          <td class="num">2,756</td>
+          <td>Hybrid rules + LLM code-review CLI (<code>ocr</code>). Good for cheaper, line-level PR comments in CI. Needs your own model key. Site: <a href="https://open-codereview.ai">open-codereview.ai</a>.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><a href="https://github.com/JustVugg/colibri">JustVugg/colibri</a></td>
+          <td><span class="tag">C</span></td>
+          <td class="num">34,489</td>
+          <td class="num">2,026</td>
+          <td>Pure-C MoE engine; streams experts from disk. Good for huge open models on a box you already own. <span class="warn">0.05–0.1 tok/s on their 25GB box. Disk-bound.</span></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><a href="https://github.com/ever-co/ever-gauzy">ever-co/ever-gauzy</a></td>
+          <td><span class="tag">TypeScript</span></td>
+          <td class="num">7,023</td>
+          <td class="num">634</td>
+          <td>Open ERP/CRM/HRM/ATS/PM. Good if you will operate Postgres/Redis instead of a SaaS pile. Heavy. <a href="https://gauzy.co">gauzy.co</a></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><a href="https://github.com/debpalash/VoiceStudio">debpalash/VoiceStudio</a></td>
+          <td><span class="tag">Python</span></td>
+          <td class="num">31,638</td>
+          <td class="num">2,072</td>
+          <td>Local ElevenLabs-class studio. Good for private clone/dub/transcribe. <span class="warn">Consent required. “646 languages” is marketing.</span> <a href="https://voicestudio.sh">voicestudio.sh</a></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><a href="https://github.com/Homebrew/BrewUI">Homebrew/BrewUI</a></td>
+          <td><span class="tag">Swift</span></td>
+          <td class="num">1,688</td>
+          <td class="num">271</td>
+          <td>Official Homebrew macOS GUI. Good if you hate the brew CLI. <span class="warn">macOS Tahoe 26+ only. Early v0.4.x.</span></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><a href="https://github.com/melgarafael/DeskcommCRM">melgarafael/DeskcommCRM</a></td>
+          <td><span class="tag">TypeScript</span></td>
+          <td class="num">3,016</td>
+          <td class="num">193</td>
+          <td>Self-hosted AI CRM + WhatsApp (WAHA). Good for chat-first sales that will self-host. <span class="warn">Unofficial WhatsApp stacks get banned.</span></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><a href="https://github.com/alphaXiv/OpenResearch">alphaXiv/OpenResearch</a></td>
+          <td><span class="tag">Rust</span></td>
+          <td class="num">3,788</td>
+          <td class="num">531</td>
+          <td>Turns coding agents into research agents (papers → experiments → evidence). Good if you already live in Claude Code/Cursor. <a href="https://openresearch.sh">openresearch.sh</a></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td><a href="https://github.com/NationalSecurityAgency/ghidra">NationalSecurityAgency/ghidra</a></td>
+          <td><span class="tag">Java</span></td>
+          <td class="num">77,216</td>
+          <td class="num">725</td>
+          <td>NSA reverse-engineering suite. Good for authorized malware/firmware/binary audit. Steep. <a href="https://ghidra-sre.org">ghidra-sre.org</a></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td><a href="https://github.com/danny-avila/LibreChat">danny-avila/LibreChat</a></td>
+          <td><span class="tag">TypeScript</span></td>
+          <td class="num">44,043</td>
+          <td class="num">254</td>
+          <td>Self-hosted multi-model ChatGPT UI + agents/MCP. <span class="ok">Most deployable app on this list.</span> Docker Compose. <a href="https://librechat.ai">librechat.ai</a></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td><a href="https://github.com/pacifio/atlas">pacifio/atlas</a></td>
+          <td><span class="tag">Rust</span></td>
+          <td class="num">4,776</td>
+          <td class="num">91</td>
+          <td>Source control for multiple coding agents. Good when you lose context switching Claude Code / Codex / OpenCode. Not a git replacement.</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td><a href="https://github.com/MG1937/ASC">MG1937/ASC</a></td>
+          <td><span class="tag">Python</span></td>
+          <td class="num">1,361</td>
+          <td class="num">129</td>
+          <td>Fast Android decompiler front-end for agents/researchers. Authorized analysis only. Younger project.</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td><a href="https://github.com/addyosmani/agent-skills">addyosmani/agent-skills</a></td>
+          <td><span class="tag">JavaScript</span></td>
+          <td class="num">95,090</td>
+          <td class="num">307</td>
+          <td>SKILL.md pack so agents follow spec/TDD/review/ship. Good process, <span class="warn">not an app — nothing to host.</span> <a href="https://skills.addy.ie">skills.addy.ie</a></td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td><a href="https://github.com/tonhowtf/omniget">tonhowtf/omniget</a></td>
+          <td><span class="tag">Rust</span></td>
+          <td class="num">13,366</td>
+          <td class="num">258</td>
+          <td>yt-dlp desktop GUI. Legitimate slice: media you have a right to save. <span class="bad">Not a paid-course ripper we will help deploy.</span></td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td><a href="https://github.com/earendil-works/pi">earendil-works/pi</a></td>
+          <td><span class="tag">TypeScript</span></td>
+          <td class="num">106,105</td>
+          <td class="num">458</td>
+          <td>Unified LLM API + agent loop + coding CLI. Good programmable harness. Crowded category. <a href="https://pi.dev">pi.dev</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="cards">
+      <article>
+        <h2>Test later</h2>
+        <p>Reopen this file. Existing Grok jobs already refresh the live list at 09:00 and 11:05 Europe/London. Say “run github-trending-briefing now” for a fresh pull. If you meant deploy an app: LibreChat via Docker Compose is the only honest candidate. Name a time if you want a different schedule.</p>
+      </article>
+      <article>
+        <h2>How to reopen</h2>
+        <p>Clone <a href="https://github.com/jalliance/github-trending-dashboard">jalliance/github-trending-dashboard</a> and open <code>index.html</code>. No tracking. Do not create another dated snapshot repo or a fourth automation.</p>
+      </article>
+    </div>
+    <footer>Source: github.com/trending + GitHub API around 11:20 BST, 16 September 2026. Confidence: high on identities and totals; moderate on exact stars-today.</footer>
+  </main>
+</body>
+</html>
